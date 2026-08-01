@@ -1,8 +1,26 @@
 aid: preveta
 name: Preveta
-description: Preveta is a company surfaced as a portfolio company of bullpen-capital, techstars and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Preveta is a healthcare software company that builds an AI-driven care
+  navigation platform and "command center" for specialty clinics. Built on
+  clinical pathways, its software transforms EMR data into actionable insights,
+  giving oncology, urology and gastroenterology practices an entirely new way to
+  view, navigate and manage their patient populations across the cancer care
+  continuum. Preveta is backed by Bullpen Capital and Techstars. As of this
+  profile the company markets a closed clinical SaaS product and does not
+  publish a public API, developer portal, or API documentation.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://preveta.com/wp-content/uploads/2021/10/icon.png
 url: https://raw.githubusercontent.com/api-evangelist/preveta/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,9 +31,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Healthcare
+- Oncology
+- Urology
+- Gastroenterology
+- Care Navigation
+- Clinical Pathways
+- Health IT
+- EMR
+- Patient Population Management
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +52,16 @@ maintainers:
 common:
 - type: Website
   url: https://preveta.com
+- type: PrivacyPolicy
+  url: https://preveta.com/privacy-policy/
+- type: Blog
+  url: https://preveta.com/newsfeed/
+- type: Support
+  url: https://preveta.com/contact-us/
+- type: DomainSecurity
+  url: security/preveta-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
