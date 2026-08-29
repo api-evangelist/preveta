@@ -9,6 +9,17 @@ description: >-
   continuum. Preveta is backed by Bullpen Capital and Techstars. As of this
   profile the company markets a closed clinical SaaS product and does not
   publish a public API, developer portal, or API documentation.
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
